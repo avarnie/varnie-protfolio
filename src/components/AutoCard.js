@@ -12,7 +12,8 @@ export default function AutoCard(){
               <div id="content" class="prose lg:prose-xl px-2">
                 <h1 class="text-center text-gray-800 text-4xl capitalize font-medium">Abraham Varnie</h1>
                 <small class="text-center block text-md text-gray-800">Graphics Designer &amp; Software Engineer</small>
-                <p class="text-justify text-lg text-gray-800">Hello, my name is Abrahm Varnie. I am a student of Starz University. I am currently studing React at Orange Digital Center.</p>
+                <p class="text-justify text-lg text-gray-800">Hello, my name is Abrahm Varnie. I am a student of Starz University. I am currently studing React at Orange Digital 
+                Center.</p>
               </div>
             </div>
         </>
