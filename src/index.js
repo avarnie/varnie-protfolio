@@ -7,33 +7,19 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
+import Projects from "./routes/projects";
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App />
   },
 
   {
     path: "/projects",
-    element: <Projects />,
-  },
-
-  {
-    path: "/blog",
-    element: <App />,
-  },
-
-  {
-    path: "/contact",
-    element: <App />,
-  },
-
-  {
-    path: "/",
-    element: <App />,
-  },
+    element: <Projects />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

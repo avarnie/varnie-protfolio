@@ -1,9 +1,4 @@
 import React from "react";
-import {
-  Link,
-} from "react-router-dom";
-
-
 
 export default function Navbar() {
   return (
@@ -65,8 +60,8 @@ export default function Navbar() {
                 </div>
                 <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
-                  <Link
-                    to={"/projects"}
+                  <a
+                    href="/projects"
                     class="
                       inline-flex
                       items-center
@@ -76,7 +71,7 @@ export default function Navbar() {
                       text-sm
                       font-medium
                       text-gray-900
-                    ">Projects</Link>
+                    ">Projects</a>
                   <a href="#" class="
                       inline-flex
                       items-center
