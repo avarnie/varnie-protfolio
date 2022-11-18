@@ -8,6 +8,7 @@ import {
 import './index.css';
 import App from './App';
 import Projects from "./routes/projects";
+import Contact from './routes/contact';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />
+  },
+
+  {
+    path: "/contact",
+    element: <Contact />
   }
 ]);
 
