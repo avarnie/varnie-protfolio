@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -55,13 +56,15 @@ export default function Navbar() {
                   sm:items-stretch sm:justify-start
                 ">
                 <div class="flex flex-shrink-0 items-center">
+                  <Link to={"/"}>
                   <h4 class="block h-6 w-auto lg:hidden">Abraham Varnie</h4>
                   <h4 class="hidden h-6 w-auto lg:block">Abraham Varnie</h4>
+                  </Link>
                 </div>
                 <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
-                  <a
-                    href="/projects"
+                  <Link
+                    to="/projects"
                     class="
                       inline-flex
                       items-center
@@ -71,8 +74,8 @@ export default function Navbar() {
                       text-sm
                       font-medium
                       text-gray-900
-                    ">Projects</a>
-                  <a href="#" class="
+                    ">Projects</Link>
+                  <Link to="/blog" class="
                       inline-flex
                       items-center
                       border-b-2 border-transparent
@@ -82,8 +85,8 @@ export default function Navbar() {
                       font-medium
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
-                    ">Blog</a>
-                  <a href="/contact" class="
+                    ">Blog</Link>
+                  <Link to="/contact" class="
                       inline-flex
                       items-center
                       border-b-2 border-transparent
@@ -93,7 +96,7 @@ export default function Navbar() {
                       font-medium
                       text-gray-500
                       hover:border-gray-300 hover:text-gray-700
-                    ">Contact</a>
+                    ">Contact</Link>
                 </div>
               </div>
               <div class="
@@ -112,7 +115,7 @@ export default function Navbar() {
           <div class="sm:hidden" id="mobile-menu">
             <div class="space-y-1 pt-2 pb-4">
               {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" --> */}
-              <a href="#" class="
+              <Link to="/projects" class="
                   block
                   border-l-4 border-indigo-500
                   bg-indigo-50
@@ -122,8 +125,8 @@ export default function Navbar() {
                   text-base
                   font-medium
                   text-indigo-700
-                ">Projects</a>
-              <a href="#" class="
+                ">Projects</Link>
+              <Link to="/blog" class="
                   block
                   border-l-4 border-transparent
                   py-2
@@ -133,8 +136,8 @@ export default function Navbar() {
                   font-medium
                   text-gray-500
                   hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700
-                ">Blog</a>
-              <a href="#" class="
+                ">Blog</Link>
+              <Link to="/contact" class="
                   block
                   border-l-4 border-transparent
                   py-2
@@ -144,7 +147,7 @@ export default function Navbar() {
                   font-medium
                   text-gray-500
                   hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700
-                ">Contact</a>
+                ">Contact</Link>
             </div>
           </div>
         </nav>

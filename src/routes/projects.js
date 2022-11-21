@@ -5,54 +5,79 @@ export default function Projects() {
     return (
         <>
             <Navbar />
-            <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-                {/* <!--Card 1--> */}
-                <div class="rounded overflow-hidden shadow-lg">
-                    <img class="w-full" src="https://i.picsum.photos/id/1035/200/300.jpg?hmac=744aBtkMLjfDyn2TzkMxsFzw2T0L57TMlNGFlX-Qgq0" alt="Mountain" />
-                    <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Mountain</div>
-                        <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                        </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-                    </div>
-                </div>
-                {/* <!--Card 2--> */}
-                <div class="rounded overflow-hidden shadow-lg">
-                    <img class="w-full" src="https://i.picsum.photos/id/1079/200/300.jpg?hmac=2_Q-8QGaabS7GsZLCCM2JvTkNhZFjwv5K2wVnJ8CjKI" alt="River" />
-                    <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">River</div>
-                        <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                        </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#summer</span>
-                    </div>
-                </div>
-
-                {/* <!--Card 3--> */}
-                <div class="rounded overflow-hidden shadow-lg">
-                    <img class="w-full" src="https://i.picsum.photos/id/1079/200/300.jpg?hmac=2_Q-8QGaabS7GsZLCCM2JvTkNhZFjwv5K2wVnJ8CjKI" alt="Forest" />
-                    <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Forest</div>
-                        <p class="text-gray-700 text-base">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                        </p>
-                    </div>
-                    <div class="px-6 pt-4 pb-2">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#fall</span>
-                    </div>
-                </div>
+          
+<div className="py-8 px-4 md:px-20 md:py-16 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div className="overflow-hidden rounded-lg">
+            <div>
+            <img
+                className="w-full object-cover"
+                src="https://picsum.photos/400/260"
+                alt=""
+              />
             </div>
+            <div className="bg-gray-100 px-8 py-4 font-mono font-medium rounded-b-lg">
+              <h3 className="py-2 md:py-4 font-bold  text-2xl">
+                Dummy Project
+              </h3>
+              <p className="text-md text-gray-800 font-mono">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                ultrices vitae ante nec pretium. Nulla dapibus ante ac enim
+                elementum dapibus vitae ac sapien. Donec sit amet elit mi.
+                Nullam ut felis a lorem efficitur lobortis iaculis facilisis
+                leo. Nulla vulputate commodo quam ut dictum. Pellentesque ornare
+                tincidunt elit eget dignissim.{" "}
+              </p>
+            </div>
+          </div>
+
+          <div className="overflow-hidden rounded-lg">
+            <div>
+            <img
+                className="w-full object-cover"
+                src="https://picsum.photos/400/260"
+                alt=""
+              />
+            </div>
+            <div className="bg-gray-100 px-8 py-4 font-mono font-medium rounded-b-lg">
+              <h3 className="py-2 md:py-4 font-bold  text-2xl">
+                Dummy Project
+              </h3>
+              <p className="text-md text-gray-800 font-mono">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                ultrices vitae ante nec pretium. Nulla dapibus ante ac enim
+                elementum dapibus vitae ac sapien. Donec sit amet elit mi.
+                Nullam ut felis a lorem efficitur lobortis iaculis facilisis
+                leo. Nulla vulputate commodo quam ut dictum. Pellentesque ornare
+                tincidunt elit eget dignissim.{" "}
+              </p>
+            </div>
+          </div>
+
+          <div className="overflow-hidden rounded-lg">
+            <div>
+            <img
+                className="w-full object-cover"
+                src="https://picsum.photos/400/260"
+                alt=""
+              />
+            </div>
+            <div className="bg-gray-100 px-8 py-4 font-mono font-medium rounded-b-lg">
+              <h3 className="py-2 md:py-4 font-bold  text-2xl">
+                Dummy Project
+              </h3>
+              <p className="text-md text-gray-800 font-mono">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                ultrices vitae ante nec pretium. Nulla dapibus ante ac enim
+                elementum dapibus vitae ac sapien. Donec sit amet elit mi.
+                Nullam ut felis a lorem efficitur lobortis iaculis facilisis
+                leo. Nulla vulputate commodo quam ut dictum. Pellentesque ornare
+                tincidunt elit eget dignissim.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
         </>
     );
 }
