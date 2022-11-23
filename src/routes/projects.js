@@ -2,15 +2,15 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 export default function Projects() {
-    return (
-        <>
-            <Navbar />
-          
-<div className="py-8 px-4 md:px-20 md:py-16 max-w-7xl mx-auto">
+  return (
+    <>
+      <Navbar />
+
+      <div className="py-8 px-4 md:px-20 md:py-16 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        <div className="overflow-hidden rounded-lg">
+          <div className="overflow-hidden rounded-lg">
             <div>
-            <img
+              <img
                 className="w-full object-cover"
                 src="https://picsum.photos/400/260"
                 alt=""
@@ -33,7 +33,7 @@ export default function Projects() {
 
           <div className="overflow-hidden rounded-lg">
             <div>
-            <img
+              <img
                 className="w-full object-cover"
                 src="https://picsum.photos/400/260"
                 alt=""
@@ -56,7 +56,7 @@ export default function Projects() {
 
           <div className="overflow-hidden rounded-lg">
             <div>
-            <img
+              <img
                 className="w-full object-cover"
                 src="https://picsum.photos/400/260"
                 alt=""
@@ -78,6 +78,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-        </>
-    );
+    </>
+  );
 }
